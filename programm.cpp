@@ -1,18 +1,9 @@
 #include <iostream>
-using namespace std;
-
-void Fun( int a, int b){
-
-  cin >> a;
-  cin >> b;
-
-  cout << a+b << endl;
-}
+#define Foo(x,y)((x)+(y))
 
 int main(){
 
-  Fun(3, 7);
-
+  std::cout<<Foo(3,2);
 
   return 0;
 }
